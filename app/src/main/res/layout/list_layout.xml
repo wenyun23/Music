@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_add"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_add"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_head"
+        app:srcCompat="@drawable/yinyue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="left"
+            android:text="@string/list_music"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/image_likes"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/image_like"
+                app:srcCompat="@drawable/likes" />
+
+            <ImageView
+                android:id="@+id/image_load"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/image_load"
+                app:srcCompat="@drawable/load" />
+
+            <ImageView
+                android:id="@+id/image_play"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/image_play"
+                app:srcCompat="@drawable/swif" />
+
+            <TextView
+                android:id="@+id/music_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/string_list_data"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

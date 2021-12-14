@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MusicPlay">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.example.music.BiaoTi
+            android:id="@+id/BiaoTi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.example.music.BiaoTi>
+
+        <ImageView
+            android:id="@+id/img_cd"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="@string/image_cd"
+            app:srcCompat="@drawable/yinyuelog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:text="@string/time_left"
+                tools:ignore="RtlHardcoded" />
+
+            <SeekBar
+                android:id="@+id/seektiao"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15" />
+
+            <TextView
+                android:id="@+id/text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="@string/time_right"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_repter"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_xin"
+                app:srcCompat="@drawable/shunx" />
+
+            <ImageView
+                android:id="@+id/img_up"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_up"
+                app:srcCompat="@drawable/last" />
+
+            <ImageView
+                android:id="@+id/img_start"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_start"
+                app:srcCompat="@drawable/pausecircle" />
+
+            <ImageView
+                android:id="@+id/img_down"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_down"
+                app:srcCompat="@drawable/next" />
+
+            <ImageView
+                android:id="@+id/img_list"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_share"
+                app:srcCompat="@drawable/listmusic"
+                tools:ignore="ImageContrastCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

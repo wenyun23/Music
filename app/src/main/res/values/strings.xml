@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">毛皮乐酷</string>
+    <string name="todo">back</string>
+    <string name="text_title">音乐列表</string>
+    <string name="dao">广告倒计时 5 秒</string>
+    <string name="image_cd">TODO</string>
+    <string name="time_left">0:00</string>
+    <string name="time_right">4:10</string>
+    <string name="image_xin">TODO</string>
+    <string name="image_up">TODO</string>
+    <string name="image_start">TODO</string>
+    <string name="image_down">TODO</string>
+    <string name="image_share">TODO</string>
+    <string name="image_head">TODO</string>
+    <string name="list_music">音乐文件名</string>
+    <string name="list_data">加入日期</string>
+    <string name="string_list_data">日期</string>
+    <string name="image_like">TODO</string>
+    <string name="tiao">跳过</string>
+    <string name="image_add">TODO</string>
+    <string name="image_load">TODO</string>
+    <string name="image_play">TODO</string>
+    <string name="img_head">TODO</string>
+    <string name="text_name">妡忛</string>
+    <string name="text_name2">音乐,不只是一个简单的旋律</string>
+    <string name="img_er_wei">TODO</string>
+    <string name="img_sta">TODO</string>
+
+    <string name="menu1">创作者平台</string>
+    <string name="menu2">个性皮肤</string>
+    <string name="menu3">我的会员</string>
+    <string name="menu4">任务中心</string>
+    <string name="meun5">听歌免流量</string>
+    <string name="meun6">乐酷商城</string>
+    <string name="menu6">定时关闭</string>
+    <string name="menu7">驾驶模式</string>
+    <string name="menu8">青少年模式</string>
+    <string name="menu9">帮助与反馈</string>
+</resources>

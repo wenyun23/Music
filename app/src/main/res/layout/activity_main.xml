@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guangao1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/guangao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/dao"
+        android:textColor="#0285ED"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_skip"
+        app:layout_constraintEnd_toStartOf="@+id/btn_skip"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_skip"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="68dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#BAF3EC"
+        android:text="@string/tiao"
+        android:textColor="@color/material_on_background_disabled"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

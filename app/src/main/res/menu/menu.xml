@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/m1"
+        android:title="@string/menu1" />
+    <item
+        android:icon="@drawable/m2"
+        android:title="@string/menu2" />
+    <item
+        android:icon="@drawable/m3"
+        android:title="@string/menu3" />
+    <item
+        android:icon="@drawable/m4"
+        android:title="@string/menu4" />
+    <item
+        android:icon="@drawable/m5"
+        android:title="@string/meun5" />
+    <item
+        android:icon="@drawable/m6"
+        android:title="@string/menu6" />
+    <item
+        android:icon="@drawable/m7"
+        android:title="@string/menu7" />
+    <item
+        android:icon="@drawable/m8"
+        android:title="@string/menu8" />
+    <item
+        android:icon="@drawable/m9"
+        android:title="@string/menu9" />
+</menu>
